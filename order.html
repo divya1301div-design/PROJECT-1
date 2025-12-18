@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fruit Shop - Order</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Fresh Roots Fruit Order</h2>
+    <p id="welcome"></p>
+    <select id="fruitSelect">
+      <option value="Apple">Apple - Rs.100/kg</option>
+      <option value="Banana">Banana - Rs.40/kg</option>
+      <option value="Mango">Mango - Rs.120/kg</option>
+      <option value="Orange">Orange - Rs.80/kg</option>
+      <option value="Grapes">Grapes - Rs.90/kg</option>
+    </select>
+    <input type="number" id="quantity" placeholder="Enter kg" min="1">
+    <button onclick="placeOrder()">Place Order</button>
+
+    <p id="orderResult"></p>
+    <button onclick="logout()">Logout</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

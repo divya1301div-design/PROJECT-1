@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Delicious handmade momos. Order veg and non-veg momos online.">
+    <title>Rent</title>
+    <link rel="icon" href="momo.png">
+    <link rel="stylesheet" href="eg.css">
+</head>
+
+<body>
+
+   
+    <header class="navbar-header">
+        <div class="navbar-container">
+         
+            <div class="site-branding">
+                <h1>RENTO</h1>
+               
+            </div>
+
+        
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#cars">Cars</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#book">Book Now</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+ 
+    <main class="container">
+<marquee> <p><em>Miles of comfort, Minute to book</em></p></marquee>
+       
+        <section id="cars">
+            <h2>Our Cars</h2>
+
+            <div class="card-grid">
+                <article class="card">
+                    <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/47051/compass-exterior-right-front-three-quarter-84.png?isig=0&q=80">
+                    <h3>Jeep Campass</h3>
+                    <p class="price">Rs.1500/day</p>
+                </article>
+                <article class="card">
+                    <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/134287/city-exterior-right-front-three-quarter-2.png?isig=0&q=80">
+                    <h3>Honda City</h3>
+                    <p class="price">Rs.2700/day</p>
+                </article>
+                <article class="card">
+                    <img src="https://imgd.aeplcdn.com/310x174/n/cw/ec/141867/nexon-exterior-right-front-three-quarter-79.png?isig=0&q=80">
+                    <h3>Tata Nexon</h3>
+                    <p class="price">Rs.1600/day</p>
+                </article>
+                <article class="card">
+                    <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/156405/xuv-3xo-exterior-right-front-three-quarter-33.png?isig=0&q=80">
+                    <h3>Mahindra XUV 3XO</h3>
+                    <p class="price">Rs.3000/day</p>
+                </article>
+                <article class="card">
+                    <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/174423/sonet-exterior-right-front-three-quarter-12.png?isig=0&q=80">
+                    <h3>Kio Sonet</h3>
+                    <p class="price">Rs.3500/day</p>
+                </article>
+                <article class="card">
+                    <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/197163/venue-exterior-right-front-three-quarter-38.png?isig=0&q=80">
+                    <h3>Hyundai Venue</h3>
+                    <p class="price">Rs.2800/day</p>
+                </article>
+                <article class="card">
+                    <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/107543/brezza-exterior-right-front-three-quarter-9.png?isig=0&q=80">
+                    <h3>Maruti Brezza</h3>
+                    <p class="price">Rs.3800/day</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                Rento is your trusted partner for convenient and affordable car rental services. We understand that every trip is unique, which is why we offer a diverse range of vehicles designed to suit different lifestyles and travel needs.
+                From quick city drives to long road trips, our cars are clean, reliable, and ready to go. We pride ourselves on simple booking, flexible rental periods, and competitive pricing—so you can focus on enjoying the journey instead of worrying about the details.
+                Our dedicated team is passionate about delivering excellent service and ensuring every customer drives away with confidence. Whether you need a car for a day, a week, or longer, Rento is here to keep you moving.
+            </p>
+        </section>
+
+      
+        <section id="book">
+            <h2>Book Cars</h2>
+            <form class="order-form">
+                <p>
+                    Customer Name:
+                    <input type="text" placeholder="Enter your name" required>
+                </p>
+                <p>
+                    Email:
+                    <input type="email" placeholder="Enter your email" required>
+                </p>
+                <p>
+                    Mobile Number:
+                    <input type="tel" placeholder="Enter mobile number" required>
+                </p>
+                <p>
+                    Select Momo Type:
+                    <select required>
+                        <option disabled selected hidden>Choose momo</option>
+                        <option>Veg Momo</option>
+                        <option>Chicken Momo</option>
+                        <option>Paneer Momo</option>
+                        <option>Fried Momo</option>
+                        <option>Cheese Momos</option>
+                        <option>Soup Momos</option>
+                    </select>
+                </p>
+                <p>
+                    Quantity:
+                    <input type="number" min="1" placeholder="Enter quantity" required>
+                </p>
+               <p>
+    Payment Method:
+    <label><input type="radio" name="payment" value="card" required>Card</label>
+    <label><input type="radio" name="payment" value="upi">UPI</label>
+    <label><input type="radio" name="payment" value="cash">Cash</label>
+</p>
+
+<p>
+    Extra Add-ons:
+    <label><input type="checkbox" name="addon" value="sauce">Sauce</label>
+    <label><input type="checkbox" name="addon" value="mayonnaise">Mayonnaise</label>
+    <label><input type="checkbox" name="addon" value="drink">SoftDrink</label>
+</p>
+
+                <p>
+                    Delivery Address:
+                    <textarea placeholder="Enter delivery address" required></textarea>
+                </p>
+                <p>
+                    Feedback / Instructions:
+                    <textarea placeholder="Additional instructions"></textarea>
+                </p>
+                <p>
+                    <button class="btn primary">Place Order</button>
+                    <button type="reset" class="btn secondary">Cancel</button>
+                </p>
+            </form>
+        </section>
+    </main>
+  
+    <footer id="contact" class="site-footer">
+        <p>Contact: magicmomo@mail.com</p>
+        <p>&copy; 2025 Magic Momo. All rights reserved.</p>
+        <p>Made with &lt;3 for momo lovers</p>
+    </footer>
+
+</body>
+</html>
